@@ -115,11 +115,21 @@ $ git log
 
 ## Rebase
 
->if you commited two times with just a few changes and doesnt deserve to be commited then we can delete it without affecting the contents, only the commit will be removed but not its content
+>if you commited two times and the last commit just had a few changes and doesnt deserve to be commited then we can delete it without affecting the contents, only the commit will be removed but not its content or it will merge the last commit to the first commit
 
 ```php
-$ git rebase -i HEAD~2 //we use 2 here because we want the two commit will be modified
+$ git rebase -i HEAD~n //n here represents a number of how many commits will be modified
 ```
+
+>if you want the commit will not be added but only its content we use this
+
+>example we just commited for one time and push it to repo and then we update just a few code because got a wrong spelling then commit again, then its not really deserve to be commited.
+
+```php
+$ git rebase -i HEAD~2
+```
+
+![img1](img/img1.png)
 
 ***
 >If you see some improvements please help by creating a pull request.
