@@ -162,6 +162,47 @@ $ git push origin master -f
 ```
 
 ***
+
+# Stash
+
+>git stash is to set aside what you are editing then go back to it later
+>if you had edit something then want to reset but you want it to be save you need to use **stash**
+
+```php
+$ git stash
+```
+
+>now you stash you local modification
+
+>and now you edit alot but want to go back from what you stash lately.
+
+```php
+$ git stash pop
+```
+
+>this will pop the latest stashed
+
+>if you stashed alot you can use 
+
+```php
+$ git stash list
+```
+
+>to drop or delete a stash you can use
+
+```php
+$ git stash drop
+```
+
+>this will delete latest stashed
+
+>to get the specific stash
+
+```php
+$ git stash pop stash@{n}
+```
+
+***
 >If you see some improvements please help by creating a pull request.
 
 
