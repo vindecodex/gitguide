@@ -21,7 +21,7 @@ $ git config --global user.email "[email address]"
 4. `git remote add origin [repo url you copy on step 3]`
 5. `git add .`
 6. `git commit -m "your message"`
-7. `git push origin master` (if got Permission Error try [this](https://github.com/hefhuman/gitguide/blob/master/fixPermisionError.md))
+7. `git push origin master` (if got Permission Error try [this](https://github.com/vindecodex/gitguide/blob/master/fixPermisionError.md))
 ## Or Download Existing Repo
 ``` php
 git clone [urlofrepo]
@@ -70,6 +70,10 @@ $ git push origin master
 >To merge our changes on our branch to the master
 
 >And push to our master to fully added to the main project
+
+***
+
+## Check for changes
 
 ```php
 $ git status
