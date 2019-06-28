@@ -141,6 +141,25 @@ pink is the commit message
 
 ![img1](img/img2.png)
 
+>**pick** is for the commited
+>**f** is for **fixup**
+>when using fixup you need HEAD~2 or greater than 2 because you need one commit to merge the other one, you cannot use fixup if only HEAD~1
+>to edit the files is press **i**, and press **esc** to leave edit mode and press **:(shift ;)** then press **wq** for write quite
+
+```php
+$ git push origin master -f
+```
+
+>to push our changes to repo we need to add -f because we used rebase, remember always when using rebase you need to add -f when pushing
+
+![img1](img/img3.png)
+
+>**d** for **drop**
+>this will delete the commited and also the contents entirely
+
+```php
+$ git push origin master -f
+```
 
 ***
 >If you see some improvements please help by creating a pull request.
