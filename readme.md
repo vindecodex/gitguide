@@ -131,6 +131,17 @@ $ git rebase -i HEAD~2
 
 ![img1](img/img1.png)
 
+```
+yellow is the action
+light blue is the commit code
+pink is the commit message
+```
+
+>we want to merge committed A content to the add edit commit because A has just a few changes and it doesnt need to be commited
+
+![img1](img/img2.png)
+
+
 ***
 >If you see some improvements please help by creating a pull request.
 
