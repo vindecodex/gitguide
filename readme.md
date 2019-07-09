@@ -220,3 +220,10 @@ $ git stash pop stash@{n}
 ***
 >If you see some that needs improvements please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
 ***
+
+***
+Need to be added
+
+>creating alias
+
+***
