@@ -113,6 +113,12 @@ $ git log
 
 >display all commited versions
 
+```php
+$ git log -1
+```
+
+>display only the last commit
+
 ## Rebase
 
 >if you commited two times and the last commit just had a few changes and doesnt deserve to be commited then we can delete it without affecting the contents, only the commit will be removed but not its content or it will merge the last commit to the first commit
@@ -160,6 +166,15 @@ $ git push origin master -f
 ```php
 $ git push origin master -f
 ```
+
+>if your branch is out of date or not the latest version from the origin master and to avoid build errors, ci errors, conflicts
+
+```php
+$ git fetch origin //fetch latest origin
+$ git rebase origin/master
+```
+
+>now you are now top of the latest version!
 
 ***
 
