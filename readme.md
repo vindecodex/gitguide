@@ -217,6 +217,21 @@ $ git stash drop
 $ git stash pop stash@{n}
 ```
 
+# Creating Alias
+
+[Creating Aliases](https://github.com/vindecodex/bashrc)
+
+# Passing Commits to another branch
+
+```php
+// on your branch that holds the commit you want to pass
+$ git log
+// copy the commit hash found
+$ git checkout [branch that will copy the commit]
+$ git reset --hard [hash of the commit you want to copy from the other branch]
+// remove the [brackets]
+```
+
 ***
 >If you see some that needs improvements please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
 ***
