@@ -177,6 +177,25 @@ $ git rebase origin/master
 >now you are now top of the latest version!
 
 ***
+# Git Add
+
+>commit specific file
+
+```php
+$ git add [filename]
+```
+
+>commit all in a directory
+
+```php
+$ git add .
+```
+
+>commit everything included sub directories
+
+```php
+$ git add . -A
+```
 
 # Stash
 
@@ -234,11 +253,4 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 
 ***
 >If you see some that needs improvements please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
-***
-
-***
-Need to be added
-
->creating alias
-
 ***
