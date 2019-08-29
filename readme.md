@@ -197,6 +197,27 @@ $ git add .
 $ git add . -A
 ```
 
+***
+
+# Commit
+
+>add to staging
+
+```php
+$ git commit -m "you message"
+```
+
+>add another file from previous commit/staging
+
+```php
+$ git add [file you want to add from previous commit]
+$ git commit --amend
+```
+
+>it will prompt for a new commit message
+
+***
+
 # Stash
 
 >git stash is to set aside what you are editing then go back to it later
