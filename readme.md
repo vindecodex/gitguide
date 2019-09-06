@@ -218,6 +218,18 @@ $ git commit --amend
 
 ***
 
+#Fetching (Don't Care Local Changes)
+
+> Be sure to stash all your local changes because it will be deleted when doing these.
+> This will be a fresh files from repo (to avoid cloning again and again)
+
+```php
+$git fetch --all
+$git reset --hard origin/master
+```
+
+***
+
 # Stash
 
 >git stash is to set aside what you are editing then go back to it later
