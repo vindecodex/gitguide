@@ -292,6 +292,28 @@ $ git stash drop
 $ git stash pop stash@{n}
 ```
 
+***
+
+# Updating Forked repo
+
+```php
+$ git remote add upstream [ssh or https url of the repo]
+```
+
+```php
+$ git fetch upstream
+```
+
+```php
+$ git rebase upstream/masater
+```
+
+```php
+$ git push origin master --force
+```
+
+***
+
 # Creating Alias
 
 [Creating Aliases](https://github.com/vindecodex/bashrc)
@@ -310,3 +332,12 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 ***
 >If you see some that needs improvements please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
 ***
+
+### Guide on Contributing
+1. Fork this repo.
+
+2. Create a branch
+
+3. Push you changes 
+
+4. Create a PR
