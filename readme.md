@@ -230,6 +230,29 @@ $git reset --hard origin/master
 
 ***
 
+# Other way on cleaning local and fetching latest repo
+
+> To remove the committed files on your local
+
+```php
+$ git reset --hard HEAD^
+```
+
+> To remove the uncommitted files on your local
+
+```php
+$ git clean -fd
+```
+
+> You can choose one of the command above or do it both according to your needs.
+> After running above commands run below command
+
+```php
+$ git pull
+```
+
+***
+
 # Stash
 
 >git stash is to set aside what you are editing then go back to it later
