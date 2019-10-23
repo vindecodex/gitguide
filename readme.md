@@ -23,6 +23,11 @@ $ git config --global user.email "[email address]"
 6. `git commit -m "your message"`
 7. `git push origin master` (if got Permission Error try [this](https://github.com/vindecodex/gitguide/blob/master/fixPermisionError.md))
 8. To add Security on commiting you can follow this [guide](https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
+8.1. If you done assigning gpg key to your github, dont forget to tell git about your gpg by doing these:
+```php
+$ git config --global user.signingkey <PASTE_LONG_KEY_HERE>
+$ git config --global commit.gpgsign true
+```
 ## Or Download Existing Repo
 ``` php
 git clone [urlofrepo]
