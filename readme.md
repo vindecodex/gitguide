@@ -222,6 +222,12 @@ $ git commit --amend
 
 >it will prompt for a new commit message
 
+>Uncommit Committed Files
+
+```php
+$ git reset HEAD~
+```
+
 ***
 
 # Fetching (Don't Care Local Changes)
