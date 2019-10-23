@@ -22,6 +22,7 @@ $ git config --global user.email "[email address]"
 5. `git add .`
 6. `git commit -m "your message"`
 7. `git push origin master` (if got Permission Error try [this](https://github.com/vindecodex/gitguide/blob/master/fixPermisionError.md))
+8. To add Security on commiting you can follow this [guide](https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
 ## Or Download Existing Repo
 ``` php
 git clone [urlofrepo]
@@ -292,6 +293,28 @@ $ git stash drop
 $ git stash pop stash@{n}
 ```
 
+***
+
+# Updating Forked repo
+
+```php
+$ git remote add upstream [ssh or https url of the repo]
+```
+
+```php
+$ git fetch upstream
+```
+
+```php
+$ git rebase upstream/masater
+```
+
+```php
+$ git push origin master --force
+```
+
+***
+
 # Creating Alias
 
 [Creating Aliases](https://github.com/vindecodex/bashrc)
@@ -306,6 +329,15 @@ $ git checkout [branch that will copy the commit]
 $ git reset --hard [hash of the commit you want to copy from the other branch]
 // remove the [brackets]
 ```
+
+### Guide on Contributing
+1. Fork this repo.
+
+2. Create a branch
+
+3. Push you changes 
+
+4. Create a PR
 
 ***
 >If you see some that needs improvements please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
