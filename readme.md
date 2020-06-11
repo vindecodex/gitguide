@@ -341,6 +341,10 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 // remove the [brackets]
 ```
 
+# Multiple Git Users with SSH
+
+[Follow this Guide](master/multiple-git-users-with-ssh.md)
+
 ### Guide on Contributing
 1. Fork this repo.
 
@@ -351,5 +355,5 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 4. Create a PR
 
 ***
->If you see some that needs improvements please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
+>If you see something that needs improvement please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
 ***
