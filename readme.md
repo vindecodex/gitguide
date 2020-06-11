@@ -154,8 +154,11 @@ pink is the commit message
 ![img1](img/img2.png)
 
 >**pick** is for the commited
+
 >**f** is for **fixup**
+
 >when using fixup you need HEAD~2 or greater than 2 because you need one commit to merge the other one, you cannot use fixup if only HEAD~1
+
 >to edit the files is press **i**, and press **esc** to leave edit mode and press **:(shift ;)** then press **wq** for write quite
 
 ```php
@@ -343,7 +346,7 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 
 # Multiple Git Users with SSH
 
-[Follow this Guide](/master/multiple-git-users-with-ssh.md)
+[Follow this Guide](/multiple-git-users-with-ssh.md)
 
 ### Guide on Contributing
 1. Fork this repo.
