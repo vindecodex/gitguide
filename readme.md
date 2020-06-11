@@ -343,7 +343,7 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 
 # Multiple Git Users with SSH
 
-[Follow this Guide](master/multiple-git-users-with-ssh.md)
+[Follow this Guide](/master/multiple-git-users-with-ssh.md)
 
 ### Guide on Contributing
 1. Fork this repo.
