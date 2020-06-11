@@ -157,7 +157,7 @@ pink is the commit message
 
 >**f** is for **fixup**
 
->when using fixup you need HEAD~2 or greater than 2 because you need one commit to merge the other one, you cannot use fixup if only HEAD~1
+>when using fixup you need HEAD\~2 or greater than 2 because you need one commit to merge the other one, you cannot use fixup if only HEAD\~1
 
 >to edit the files is press **i**, and press **esc** to leave edit mode and press **:(shift ;)** then press **wq** for write quite
 
