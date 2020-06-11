@@ -67,19 +67,19 @@ Host github.com-work
 
 ** Pattern for switching **
 
-`git remote set-url [User]@[Host]:[repo-user]/[reponame].git`
+`git remote set-url origin [User]@[Host]:[repo-user]/[reponame].git`
 
 `git config --global user.name="name of your personal git" user.email="email of your personal git"
 
 ##### To replace this pattern with Personal Account
 
-`git remote set-url git@github.com-personal:vindecodex/gitguide.git`
+`git remote set-url origin git@github.com-personal:vindecodex/gitguide.git`
 
 `git config --global user.name="personal" user.email="personal@email.com"`
 
 ##### To replace this pattern with Work Account
 
-`git remote set-url git@github.com-work:vindecodex/gitguide.git`
+`git remote set-url origin git@github.com-work:vindecodex/gitguide.git`
 
 `git config --global user.name="work name" user.email="work@email.com"`
 
