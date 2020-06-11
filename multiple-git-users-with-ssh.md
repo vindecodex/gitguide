@@ -95,9 +95,11 @@ Host github.com-work
 
 On setting up the `git config --global` better to create alias for it to make it shorter.
 
-`alias gitpersonal="git config --global user.name="personal" user.email="personal@email.com"`
+```
+alias gitpersonal="git config --global user.name="personal" user.email="personal@email.com"
 
-`alias gitwork="git config --global user.name="work" user.email="work@gmail.com"`
+alias gitwork="git config --global user.name="work" user.email="work@gmail.com"
+```
 
 Now everytime we clone a repo `ssh` must be selected instead of `HTTPS`
 
