@@ -13,6 +13,12 @@ $ git config --global user.name "[name]"
 $ git config --global user.email "[email address]"
 ```
 
+## Remote
+
+`git remote` - to display remote associated by the repository.
+
+`git remote add <name> <url/path>` - to add a remote repository. for more [checkout](/tips.md)
+
 ***
 ## Create New Repository
 1. Create Repo on Github
@@ -356,6 +362,10 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 3. Push you changes 
 
 4. Create a PR
+
+# Other useful tips
+
+[TIPS](/tips.md)
 
 ***
 >If you see something that needs improvement please help by creating a pull request. I also suggest play git **[here](https://learngitbranching.js.org/)**
