@@ -350,6 +350,17 @@ $ git reset --hard [hash of the commit you want to copy from the other branch]
 // remove the [brackets]
 ```
 
+# Renaming Branch from local and remote repository.
+
+```php
+// head must be on your old branch when doing this.
+$ git branch -m [new branch name]
+// renaming local branch
+$ git push origin -u [new branch name]
+// delete remote branch
+$ git push origin --delete [old branch name]
+```
+
 # Multiple Git Users with SSH
 
 [Follow this Guide](/multiple-git-users-with-ssh.md)
