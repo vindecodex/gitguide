@@ -19,6 +19,15 @@ $ git config --global user.email "[email address]"
 
 `git remote add <name> <url/path>` - to add a remote repository. for more [checkout](/tips.md)
 
+> Listing Remote
+
+`git remote`
+
+
+> Deleting a Remote
+
+`git remote rm [remotename]`
+
 ***
 ## Create New Repository
 1. Create Repo on Github
