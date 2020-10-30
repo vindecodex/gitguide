@@ -318,18 +318,22 @@ $ git stash pop stash@{n}
 # Updating Forked repo
 
 ```php
+// create a new remote from original repo
 $ git remote add upstream [ssh or https url of the repo]
 ```
 
 ```php
+// fetch from that original repo
 $ git fetch upstream
 ```
 
 ```php
-$ git rebase upstream/masater
+// rebase from that original repo branch [master or main]
+$ git rebase upstream/master
 ```
 
 ```php
+// push your updated local branch to your forked repository
 $ git push origin master --force
 ```
 
