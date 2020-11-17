@@ -246,6 +246,22 @@ $ git commit --amend
 $ git reset HEAD~
 ```
 
+# Show Sorted Branch
+
+>Get a list of branches ordered by most recent commit
+>use the `--sort=-committerdate` option of [git for-each-ref](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-for-each-ref.html)
+
+```php
+$ git for-each-ref --sort=-committerdate refs/heads/
+```
+
+>or using git branch (since version 2.7.0)
+
+```php
+git branch --sort=-committerdate  # DESC
+git branch --sort=committerdate  # ASC
+```
+
 ***
 
 # Fetching (Don't Care Local Changes)
